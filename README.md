@@ -41,7 +41,7 @@ PROG_ADDR  : out   STD_LOGIC_VECTOR(9 downto 0)    -- addr for  prog mem
 ```
 
 #### vhdl example
-```
+```vhdl
 library IEEE;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -61,15 +61,15 @@ signal addr     : std_logic_vector(9 downto 0);  -- ADDR for prog mem
 -- core program
 signal prog_ROM : rom_type := (		 
 	"11000000", -- LDI A, 0
-    "00000000",
-		 
+	"00000000",
+	 
 	"11001000", -- LDI B, 1
-    "00000001",
-		 
+	"00000001",
+	 
 	"01100000", -- A + B => A
 
-    "01010011", -- BUS(1111 1111 11) <= A
-    "11111111",
+	"01010011", -- BUS(1111 1111 11) <= A
+	"11111111",
 		 
 	"10000000", -- JMP 0x4
 	"00000100"
@@ -81,8 +81,8 @@ begin
 	port map(
 		-- Basic 
 		CLK        => CLK,
-        RESET      => '0',
-        EN         => '1',
+		RESET      => '0',
+		EN         => '1',
 			  
 		-- BUS
 		BINDIRIN   => "00000000", -- NC
