@@ -13,7 +13,7 @@ use IEEE.STD_LOGIC_SIGNED.ALL;
 entity alu is		
     Port (
 		OP     : in  STD_LOGIC_VECTOR(2 downto 0);
-      A      : in  STD_LOGIC_VECTOR(7 downto 0);
+		A      : in  STD_LOGIC_VECTOR(7 downto 0);
 		B      : in  STD_LOGIC_VECTOR(7 downto 0);
 		OUTPUT : out STD_LOGIC_VECTOR(7 downto 0)
 	 );
