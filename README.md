@@ -1,5 +1,5 @@
 # MISC_Processor
-VHDL Minimal instruction set computer Processor implementing MIS8 Instruction set
+VHDL Minimal instruction set computer Processor implementing MIS8 Instruction set (https://github.com/Lukas0025/MIS8)
 
 ### Instruction set (MIS8)
 
