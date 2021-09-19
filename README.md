@@ -1,7 +1,7 @@
 # MISC_Processor
-VHDL Minimal instruction set computer Processor
+VHDL Minimal instruction set computer Processor implementing MIS8 Instruction set
 
-### Iscruction set
+### Instruction set (MIS8)
 
 | ASM         | Pseudo code                       | OP Code |   Binary               |
 | ----------- | --------------------------------- |---------|------------------------|
